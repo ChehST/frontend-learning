@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="public/styles.css">
 </head>
 <body>
-    <header class="h-14 px-2 border-b flex items-center justify-between">
-        <a class="font-bold" href="/">DanceSport.AM</a>
+    <header class="h-24 px-2 flex items-center justify-between absolute z-40 w-full text-white">
+        <a class="font-bold mx-6" href="/">DanceSport.AM</a>
         <!--navbar-->
         <div class="hidden md:inline-flex items-center">
             <nav class="flex items-center">
@@ -18,9 +18,9 @@
                     <li><a class="inline-block py-3 px-2 hover:text-yellow-600" href="#Services">Services</a></li>
                 </ul>
             </nav>
-            <div class="inline-block py-1 px-3 border-2 rounded-full border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500"><button>Запись</button></div>
+            <div class="inline-block py-1 px-5 mx-6 border-2 rounded-full border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500"><button>Запись</button></div>
         </div>
-        <button class="inline-block md:hidden">
+        <button class="inline-block mx-6 md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>                  
@@ -33,23 +33,100 @@
             Your browser does not support the video tag.
         </video>
         
-        <section class="flex h-full z-30 relative justify-center bg-black/80">
-            <ul class="w-1/3 py-60">
+        <section class="flex h-full z-30 relative justify-center items-center bg-black/80">
+            <ul class="md:w-2/3 w-3/4">
                 <li class="flex justify-center">
-                    <h1 class="text-4xl text-white">
-                        <span class="text-red-700">D</span>ance
-                        <span class="text-indigo-800">S</span>port
-                        <span class="text-orange-600">.AM</span>
+                    <h1 class="text-4xl py-4 text-white">
+                        <span class="text-red-700">D</span>ance<span class="text-indigo-800">S</span>port<span class="text-orange-600">.AM</span>
                     </h1>
                 </li>
-                <li class="flex justify-center text-white">
+                <li class="text-center text-white">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, error sapiente! Obcaecati ab molestias voluptatem, nam iusto ex quod blanditiis optio molestiae ipsum facilis rem ullam, consectetur officiis omnis amet.</p>
                 </li>
             </ul>
         </section>
     </div>
     <main>
-        <div class="h-screen bg-gray-500 flex"></div>
+        <!--about-->
+        <div class="lg:h-screen py-12 bg-gray-500 flex items-center justify-center">
+            <div class="md:w-2/4 w-3/4">
+                <h1 class="py-4 text-4xl text-center">Спортивные танцы в Армении</h2>
+                <p class="text-center">DanceSport.AM это в-первую очередь информационная площадка, для вашего удобного ознакомления с бальными танцами в Армении. Тут вы можете найти подходящию студию танцев для Вашего ребёнка, записаться на первое занятие.
+                    А ещё вы можете больше узнать о бальных танцах, понять что из себя они представляют и какую пользу несут для детей и взрослых.</p>
+            </div>
+        </div>
+        <!--value-->
+        <div class="lg:h-screen w-full bg-yellow-300">
+            <div class="flex h-1/2 justify-center items-center">
+                <div class="md:w-1/2 my-6 w-3/4">
+                    <h2 class="text-center">title</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur eos nobis porro. Consequatur maxime blanditiis ipsa vitae inventore repudiandae omnis necessitatibus accusantium? Tempore culpa aliquid dolorum. Harum, officia ea.</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="lg:w-3/4 w-3/4">
+                    <ul class="lg:flex justify-between">
+                        <li class="md:space-x-2 my-6">
+                            <h2 class="text-center">title</h2>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur eos nobis porro. Consequatur maxime blanditiis ipsa vitae inventore repudiandae omnis necessitatibus accusantium? Tempore culpa aliquid dolorum. Harum, officia ea.</p>
+                        </li>
+                        <li class="md:space-x-2 my-6">
+                            <h2 class="text-center">title</h2>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur eos nobis porro. Consequatur maxime blanditiis ipsa vitae inventore repudiandae omnis necessitatibus accusantium? Tempore culpa aliquid dolorum. Harum, officia ea.</p>
+                        </li>
+                        <li class="md:space-x-2 my-6">
+                            <h2 class="text-center">title</h2>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur eos nobis porro. Consequatur maxime blanditiis ipsa vitae inventore repudiandae omnis necessitatibus accusantium? Tempore culpa aliquid dolorum. Harum, officia ea.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--services-->
+        <div class="w-full  bg-slate-600">
+            <div class="flex h-1/2 justify-center items-center">
+                <div class="md:w-1/2 my-6 w-3/4">
+                    <h2 class="text-center">title</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur eos nobis porro. Consequatur maxime blanditiis ipsa vitae inventore repudiandae omnis necessitatibus accusantium? Tempore culpa aliquid dolorum. Harum, officia ea.</p>
+                </div>
+            </div>
+            <!--1st-->
+            <div class="md:flex justify-center">
+                <div class="md:w-5/6 p-3 flex justify-center bg-cyan-500">
+                    <div class="md:flex lg:w-auto w-5/6 items-center">
+                        <img class="md:w-1/2 h-fit" src="public/img1.png" alt="random image">
+                        <div class="text-start p-6">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eum sed autem accusamus nostrum, iste nam nihil ea itaque quaerat id eligendi blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--2nd-->
+            <div class="md:flex justify-center">
+                <div class="md:w-5/6 p-3 flex justify-center bg-cyan-500">
+                    <div class="md:flex lg:w-auto w-5/6 items-center">
+                        <img class="md:w-1/2 order-2 h-fit" src="public/img1.png" alt="random image">
+                        <div class="text-start p-6 order-1">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eum sed autem accusamus nostrum, iste nam nihil ea itaque quaerat id eligendi blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--3rd-->
+            <div class="md:flex justify-center">
+                <div class="md:w-5/6 p-3 flex justify-center bg-cyan-500">
+                    <div class="md:flex lg:w-auto w-5/6 items-center">
+                        <img class="md:w-1/2 h-fit" src="public/img1.png" alt="random image">
+                        <div class="text-start p-6">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eum sed autem accusamus nostrum, iste nam nihil ea itaque quaerat id eligendi blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </body>
